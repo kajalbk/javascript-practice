@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: linear-gradient(hotpink, skyblue, rgb(224, 198, 150));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+form {
+    text-align: center;
+    margin-top: 40px;
+}
+
+select {
+    font-size: 20px;
+    margin-right: 1rem;
+    outline: 0;
+    background-image: linear-gradient(red, yellow);
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+select:hover {
+    background-image: linear-gradient(rgb(236, 176, 185), rgb(152, 205, 230));
+}
+
+#div1 {
+    margin-top: 20%;
+    margin-left: 30%;
+    font-size: 30px;
+    height: 10rem;
+    text-transform: capitalize;
+    padding-top: 100px;
+    padding-left: 300px;
+    display: inline-block;
+    background-color: rgba(241, 191, 191, 0.8);
+    border-radius: 10px;
+    width: 40rem;
+    border: 5px double rgb(99, 4, 4);
+}
